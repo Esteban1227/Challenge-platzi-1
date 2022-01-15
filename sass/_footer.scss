@@ -1,0 +1,37 @@
+.footer{
+    &__socialNetworks{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 50px;
+    }
+    &__iconFacebook{
+        font-size: 30px;
+        color: white;
+        padding: 10px 25px;
+        cursor: pointer;
+        transition: 0.2s;
+        &:hover{
+            color: $colorHoverIconFooterFacebook;
+        }
+    }
+    &__iconInstagram{
+        font-size: 30px;
+        color: white;
+        padding: 10px 25px;
+        cursor: pointer;
+        transition: 0.2s;
+        &:hover{
+            color: $colorHoverIconFooterInstagram;
+        }
+    }
+    &__iconGitHub{
+        font-size: 30px;
+        color: white;
+        padding: 10px 25px;
+        cursor: pointer;
+        transition: 0.2s;
+        &:hover{
+            color: $colorHoverIconFooterGitHub;
+        }
+    }
+}
